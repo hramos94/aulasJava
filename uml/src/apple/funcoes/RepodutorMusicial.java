@@ -1,0 +1,7 @@
+package apple.funcoes;
+
+public interface RepodutorMusicial {
+    public void tocar();
+    public void pausar();
+    public void selecionarMusica();
+}
