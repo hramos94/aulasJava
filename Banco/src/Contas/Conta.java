@@ -95,7 +95,7 @@ public abstract class Conta implements IConta {
         List<Conta> topAll = new ArrayList<>(contasList);
         topAll.sort(new ComparatorPorSaldo().reversed());
         if (topAll.size() > 3) {
-            return topAll.subList(0, 2);
+            return topAll.subList(0, 3);
         } return topAll.subList(0, topAll.size());
     }
 
